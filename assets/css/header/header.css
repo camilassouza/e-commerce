@@ -1,0 +1,47 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 40px;
+    gap: 10px;
+    min-height: 72px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header__logo img {
+    width: 100px;
+}
+
+.header__login {
+    text-align: right; 
+}
+
+.header__login  button {
+    max-width: 133px;
+    margin: auto;
+}
+
+.home__banner {
+    background-image: url('../../images/home/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 16px;
+    padding-top: 100px;
+}
+
+.home__banner__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.home__banner__description {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.home__banner a {
+    max-width: 110px;
+    margin-top: 10px;
+}

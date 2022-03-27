@@ -1,0 +1,61 @@
+footer {
+    padding: 16px;
+    background-color: var(--primary-light);
+}
+
+.footer__logo {
+    text-align: center;
+}
+
+.footer__pages {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer__pages a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #464646;
+    margin-bottom: 10px;
+    display: block;
+}
+
+footer form input,
+footer form textarea {
+    width: calc(100% - 20px);
+    height: 56px;
+    background: #FFFFFF;
+    margin: 8px 0px;
+    display: block;
+    border: inherit;
+    padding: 0 10px;
+}
+
+footer form label {
+    width: 304px;
+    height: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+    margin: 4px 0px;
+    position: absolute;
+    left: 10px;
+    transform: inherit;
+}
+
+.input-label {
+    position: relative;
+}
+
+.input-label:hover label {
+    transform: translateY(-15px);
+    font-size: 10px;
+    transition: .2s;
+}
